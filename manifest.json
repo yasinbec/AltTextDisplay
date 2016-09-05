@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Alt Text Shower",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-2.2.4.min.js"],
+      "css": ["altText.css"] 
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon_off.png",
+    // "default_popup": "popup.html",
+    "default_title": "Show All Alt Text!"
+  },
+  "background": {
+   "scripts": ["background.js"] 
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}

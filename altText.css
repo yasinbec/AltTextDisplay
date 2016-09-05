@@ -1,0 +1,19 @@
+.altTextDisplay {
+	background-color: #fff;
+	border: green solid 2px;
+	color: #000;
+	display: none;
+    border-radius: 5px;
+    float: left;
+    font-size: 11px;
+    left: 0;
+    padding: 0px 2px;
+    position: absolute;
+    top: 0;
+}
+
+.no-altText {
+	background-color: #ff0000;
+	border: #ff0000 solid 2px;
+	color: #fff;
+} 
